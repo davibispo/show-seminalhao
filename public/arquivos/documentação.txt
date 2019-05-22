@@ -1,0 +1,40 @@
+Funcionalidades
+
+Alt + n: Cadastra Novo Participante.
+Alt + i: Inicia o Jogo.
+Alt + c: Chama a pergunta e ela é mostrada na tela.
+Alt + v: Mostra a alternativa 1.
+Alt + b: Mostra a alternativa 2.
+Alt + n: Mostra a alternativa 3.
+Alt + m: Mostra a alternativa 4.
+Alt + (1, 2, 3, 4): Seleciona uma resposta.
+Alt + r ou Enter: Envia a resposta para ser analisada.
+Alt + x: Retorna para o jogo ou para a tela inicial após mostrar se respota está certa ou errada.
+Alt + j: Pula para a próxima pergunta e ela fica inutilizável.
+Alt + s: Pára o jogo e mostra a pontuação alcançada. 
+(Na tela de Parada, Alt + x: retorna para tela inicial).
+Alt + h: Diminui uma AJUDA 
+(Está ação deve ser executada na tela de Resposta Correta)
+
+
+Regras:
+
+Quantos pulos (JUMP) pode realizar: 02
+
+Quantas ajudas (HELP):
+	Equipe: 01;
+	Líderes: 01;
+
+Parar: Mantem os pontos ganhos;
+
+Pontos de Acertos: 10, 20 e 40.
+
+Resposta Errada: Perde todos os pontos.
+
+Tempo de resposta: 
+	10 segundos para responder depois de ver todas as opções. 
+	Caso demore mais que 05 segundos, a pergunta deverá pulada (Alt + j) e 
+	caso não tenha direito a pulo, o jogo será parado (ALT + L) e metade dos pontos mantidos.
+
+
+
