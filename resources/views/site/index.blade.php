@@ -73,21 +73,21 @@
             <div class="links">
                 <table class="table">
                     <tr>
-                        <td style="vertical-align:middle; color:white; font-size:20px;">
+                        <td style="vertical-align:middle; color:yellow; font-size:20px;">
                             <input type="radio" name="escolha" value="5" accesskey="j" required>
                             <i class="fas fa-frog"></i>
                             <b>{{ $pulos }}</b><br>
-                            <i style="font-size:15px;">pulo</i>
+                            <i style="font-size:15px;">pulo (J)</i>
                         </td>
-                        <td style="vertical-align:middle; color:white; font-size:20px;">
+                        <td style="vertical-align:middle; color:yellow; font-size:20px;">
                             <i class="fas fa-users"></i>
                             <b>{{ $ajudas }}</b><br>
-                            <i style="font-size:15px;">ajuda</i>
+                            <i style="font-size:15px;">ajuda (H)</i>
                         </td>
-                        <td style="vertical-align:middle; color:white; font-size:20px;">
-                            <a class="link" href="{{ route('site.stop') }}" accesskey="s" data-toggle="tooltip" title="Alt + s"><i class="fas fa-hand-paper"></i></a>
+                        <td style="vertical-align:middle; color:yellow; font-size:20px;">
+                            <a style="color:yellow" class="link" href="{{ route('site.stop') }}" accesskey="s" data-toggle="tooltip" title="Alt + s"><i class="fas fa-hand-paper"></i></a>
                             <br>
-                            <i style="font-size:15px;">parar</i>
+                            <i style="font-size:15px;">parar (S)</i>
                         </td>
                     </tr>
                 </table>
